@@ -28,7 +28,7 @@ let specialCharacters = [
   '/',
   '|',
 ]
-password.addEventListener('keydown', function () {
+password.addEventListener('keyup', function () {
   if (checkLength(password.value) && lengthCount == 0) {
     currentBlur -= 2
     lengthCount += 1
